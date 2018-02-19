@@ -1,10 +1,10 @@
 # 
-# This file is part of pyHolo. 
+# This file is part of pyHoloGen. 
 # Copyright (C) 2015-2018  Svetlin Tassev
 # 						 Braintree High School
 #						 Harvard-Smithsonian Center for Astrophysics
 # 
-#    pyHolo is free software: you can redistribute it and/or modify
+#    pyHoloGen is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
 #    (at your option) any later version.
@@ -72,7 +72,7 @@ long_description="""Hologram maker
 
 
 setup_args = {
-        'name': 'pyHolo',
+        'name': 'pyHoloGen',
         'version': 1.0,
         'author': 'Svetlin Tassev',
         'author_email': 'stassev@alum.mit.edu',
@@ -90,7 +90,7 @@ setup_args = {
             'Topic :: Scientific/Engineering',
             'Topic :: Scientific/Engineering :: Physics'
             ],
-        'packages':['pyHolo'],
+        'packages':['pyHoloGen'],
         'ext_modules': ext_modules,
         'include_dirs': include_dirs,
         'cmdclass' : {'build_ext': build_ext},

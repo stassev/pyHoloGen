@@ -1,10 +1,10 @@
 # 
-# This file is part of pyHolo. 
+# This file is part of pyHoloGen. 
 # Copyright (C) 2015-2018  Svetlin Tassev
 # 						 Braintree High School
 #						 Harvard-Smithsonian Center for Astrophysics
 # 
-#    pyHolo is free software: you can redistribute it and/or modify
+#    pyHoloGen is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
 #    (at your option) any later version.
@@ -22,7 +22,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from pyHolo import calculate_hologram
+from pyHoloGen import calculate_hologram
 
 # Output resolution of hologram below in dpi. For printing on 
 # transparencies, hopefully, your printer can support at least 
